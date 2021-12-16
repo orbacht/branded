@@ -79,7 +79,6 @@ export default function Memberstable() {
                         <Dropdown.Menu>
                             <Dropdown.Item as="button" onClick={() => { descendingOrder(list) }}>Age descending</Dropdown.Item>
                             <Dropdown.Item as="button" onClick={() => { ascendingOrder(list) }} >Age Ascending</Dropdown.Item>
-                            {/* <Dropdown.Item as="button" onClick={() => { membersAboveage(token, age) }}>Something else</Dropdown.Item> */}
                         </Dropdown.Menu>
                     </Dropdown>
                 </Col>
