@@ -1,0 +1,40 @@
+[{
+  "_id": {
+    "$oid": "61bb7376e896b4c41796e571"
+  },
+  "username": "orbacht",
+  "first_name": "OR",
+  "last_name": "BAHTARI",
+  "email": "orbacht@gmail.com",
+  "age": 27,
+  "password": "$2b$10$.zImDMdsnkEh3RvW24NjyOi7iU8uA6lkCNXm38N8loYK9Uxe6.OPS",
+  "isvalid": true,
+  "uniquestring": "",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61bb73fcaa302387e325472b"
+  },
+  "username": "orbacht2",
+  "first_name": "OR",
+  "last_name": "BAHTARI",
+  "email": "orbacht2@gmail.com",
+  "age": 32,
+  "password": "$2b$10$.zImDMdsnkEh3RvW24NjyOi7iU8uA6lkCNXm38N8loYK9Uxe6.OPS",
+  "isvalid": true,
+  "uniquestring": "",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61bb748be896b4c41796e57a"
+  },
+  "username": "orbacht3",
+  "first_name": "OR",
+  "last_name": "BAHTARI",
+  "email": "orbacht3@gmail.com",
+  "age": 37,
+  "password": "$2b$10$8quIwI7eR9Lra/uFoktUOerAku3DuwLDwEx5unm9WYRR5bYFPTFmS",
+  "isvalid": true,
+  "uniquestring": "",
+  "__v": 0
+}]
