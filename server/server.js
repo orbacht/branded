@@ -37,32 +37,9 @@ app.get("/api/membersasc", async (req, res) => {
     res.send(members);
 });
 
-app.get("/api/membersascminimum", async (req, res) => {
-    const { age } = req.body;
-    if (!age) {
-        const members = await Member.find().sort({ age: 'desc' });
-        res.send(members);
-    } else {
-        const members = await Member.find().where('age').gt(age).sort({ age: 'asc' });
-        res.send(members);
-    }
-});
-
 app.get("/api/membersdesc", async (req, res) => {
     const members = await Member.find().sort({ age: 'desc' });
     res.send(members);
-});
-
-app.get("/api/membersdescminimum", async (req, res) => {
-    const { age } = req.body;
-    if (!age) {
-        const members = await Member.find().sort({ age: 'desc' });
-        res.send(members);
-    } else {
-        const members = await Member.find().where('age').gt(age).sort({ age: 'desc' });
-        res.send(members);
-    }
-
 });
 
 app.get("/api/membersaboveage/:age", async (req, res) => {
